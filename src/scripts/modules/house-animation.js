@@ -28,7 +28,7 @@ if(animationBlock) {
       /*end: "center bottom",*/
       /*end: "+=1000",*/
       /*scrub: true,*/
-      markers: true,
+      /*markers: true,*/
     }
   })
 

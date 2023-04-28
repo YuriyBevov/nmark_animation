@@ -33,14 +33,15 @@ if (animationBlock) {
   var tl = gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.timeline({
     scrollTrigger: {
       trigger: animationBlock,
-      start: "top center",
-
+      start: "top center"
       /*end: "center bottom",*/
 
       /*end: "+=1000",*/
 
       /*scrub: true,*/
-      markers: true
+
+      /*markers: true,*/
+
     }
   }).fromTo(houseFoundation, {
     opacity: 0,

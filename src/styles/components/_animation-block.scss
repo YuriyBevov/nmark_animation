@@ -6,8 +6,12 @@
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  //outline: 1px solid orange;
+  outline: 1px solid orange;
   margin-bottom: 50px;
+
+  @media(max-width: 768px) {
+    max-width: 400px;
+  }
 
   .lw-house {
     padding-top: 75px;
@@ -35,9 +39,12 @@
           z-index: 3;
         }
       }
+
+      @media(max-width: 768px) {
+        max-width: 200px;
+        height: auto;
+      }
     }
-
-
   }
 
   .lw-back-tree {
@@ -45,26 +52,48 @@
     right: 85px;
     bottom: 30px;
     z-index: 1;
+
+    @media(max-width: 768px) {
+      max-width: 80px;
+      right: 60px;
+      bottom: 30px;
+    }
+
+    @media(max-width: 400px) {
+      right: 30px;
+    }
   }
 
   .lw-tree {
     position: absolute;
-    left: 40px;
+    left: 0px;
     bottom: -5px;
     z-index: 2;
+    @media(max-width: 768px) {
+      max-width: 80px;
+    }
   }
 
   .lw-front-tree {
     position: absolute;
-    right: -40px;
+    right: 0px;
     bottom: -40px;
     z-index: 2;
+    @media(max-width: 768px) {
+      max-width: 80px;
+      bottom: -40px;
+    }
   }
 
   .lw-fence {
     position: absolute;
-    right: 120px;
+    right: 130px;
     bottom: -40px;
     z-index: 2;
+    @media(max-width: 768px) {
+      max-width: 100px;
+      right: 80px;
+      bottom: -20px;
+    }
   }
 }
