@@ -591,7 +591,8 @@ a {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
   margin: 0 auto;
   margin-bottom: 50px;
 }
