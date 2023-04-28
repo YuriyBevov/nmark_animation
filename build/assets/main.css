@@ -604,6 +604,18 @@ a {
   display: block;
   overflow: visible;
 }
+.animation-block .lw-house svg rect {
+  position: relative;
+}
+.animation-block .lw-house svg rect:nth-child(1) {
+  z-index: 1;
+}
+.animation-block .lw-house svg rect:nth-child(2) {
+  z-index: 2;
+}
+.animation-block .lw-house svg rect:nth-child(3) {
+  z-index: 3;
+}
 .animation-block .lw-back-tree {
   position: absolute;
   right: 85px;

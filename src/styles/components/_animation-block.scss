@@ -18,7 +18,25 @@
       display: block;
       //outline: 1px solid red;
       overflow: visible;
+
+      rect {
+        position: relative;
+
+        &:nth-child(1) {
+          z-index: 1;
+        }
+
+        &:nth-child(2) {
+          z-index: 2;
+        }
+
+        &:nth-child(3) {
+          z-index: 3;
+        }
+      }
     }
+
+
   }
 
   .lw-back-tree {

@@ -48,7 +48,7 @@ if (animationBlock) {
   }, {
     opacity: 1,
     y: 0,
-    duration: 1,
+    duration: 1.2,
     ease: 'ease-in'
   }).fromTo(houseWalls, {
     opacity: 0,
@@ -56,9 +56,9 @@ if (animationBlock) {
   }, {
     opacity: 1,
     y: 0,
-    duration: .8,
+    duration: 1,
     ease: 'back'
-  }, "-=.5").fromTo(houseRoof, {
+  }, "-=.7").fromTo(houseRoof, {
     opacity: 0,
     y: '-30px'
   }, {
@@ -66,7 +66,7 @@ if (animationBlock) {
     y: 0,
     duration: .8,
     ease: 'back'
-  }, "-=.5").fromTo(tree, {
+  }, "-=.3").fromTo(tree, {
     opacity: 0,
     y: 200,
     scale: 0
@@ -74,7 +74,7 @@ if (animationBlock) {
     opacity: 1,
     y: 0,
     scale: 1,
-    duration: 1.2,
+    duration: 1.6,
     ease: 'elastic'
   }, "-=.7").fromTo(backTree, {
     opacity: 0,
@@ -84,7 +84,7 @@ if (animationBlock) {
     opacity: 1,
     y: 0,
     scale: 1,
-    duration: 1.6,
+    duration: 1.8,
     ease: 'elastic'
   }, "-=1.2").fromTo(frontTree, {
     opacity: 0,
@@ -96,7 +96,7 @@ if (animationBlock) {
     scale: 1,
     duration: 1.5,
     ease: 'elastic'
-  }, "-=1.2").fromTo(fence, {
+  }, "-=1.6").fromTo(fence, {
     opacity: 0,
     y: '200'
   }, {
@@ -105,8 +105,86 @@ if (animationBlock) {
     scale: 1,
     duration: .4,
     ease: 'back'
-  }, "-=1.2");
+  }, "-=1.5");
 }
+/*
+.fromTo(houseFoundation, {
+    opacity: 0,
+    y: 150
+  },{
+    opacity: 1,
+    y: 0,
+    duration: 1,
+    ease: 'ease-in'
+  })
+
+  .fromTo(houseWalls, {
+    opacity: 0,
+    y: '100%'
+  },{
+    opacity: 1,
+    y: 0,
+    duration: .8,
+    ease: 'back'
+  }, "-=.5")
+
+  .fromTo(houseRoof, {
+    opacity: 0,
+    y: '-30px'
+  },{
+    opacity: 1,
+    y: 0,
+    duration: .8,
+    ease: 'back'
+  }, "-=.5")
+
+  .fromTo(tree, {
+      opacity: 0,
+      y: 200,
+      scale: 0
+    },{
+      opacity: 1,
+      y: 0,
+      scale: 1,
+      duration: 1.2,
+      ease: 'elastic'
+    }, "-=.7")
+
+  .fromTo(backTree, {
+      opacity: 0,
+      y: 200,
+      scale: 0
+    },{
+      opacity: 1,
+      y: 0,
+      scale: 1,
+      duration: 1.6,
+      ease: 'elastic'
+    }, "-=1.2")
+
+  .fromTo(frontTree, {
+      opacity: 0,
+      y: 200,
+      scale: 0
+    },{
+      opacity: 1,
+      y: 0,
+      scale: 1,
+      duration: 1.5,
+      ease: 'elastic'
+    }, "-=1.2")
+
+  .fromTo(fence, {
+      opacity: 0,
+      y: '200',
+    },{
+      opacity: 1,
+      y: 0,
+      scale: 1,
+      duration: .4,
+      ease: 'back'
+    },  "-=1.2")
+*/
 
 /***/ }),
 
