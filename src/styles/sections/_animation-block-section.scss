@@ -1,0 +1,40 @@
+.lw-feature {
+  h2 {
+    font-weight: 700;
+    font-size: 60px;
+  }
+
+  &__title {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 18px;
+  }
+
+  &__list {
+    @extend .list-reset;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 300px;
+    grid-row-gap: 15px;
+
+    li {
+      //outline: 1px solid red;
+
+      &:nth-child(2),
+      &:nth-child(5) {
+        margin-top: 60px;
+      }
+    }
+
+    &-item--animated {
+      grid-column: 1 / 3;
+      min-height: 400px;
+      //outline: 1px solid black
+    }
+  }
+}

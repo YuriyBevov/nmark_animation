@@ -1,0 +1,51 @@
+.animation-block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  margin: 0 auto;
+  //outline: 1px solid orange;
+  margin-bottom: 50px;
+
+  .lw-house {
+    padding-top: 75px;
+    //outline: 1px solid black;
+    overflow: hidden;
+    z-index: 2;
+
+    svg {
+      display: block;
+      //outline: 1px solid red;
+      overflow: visible;
+    }
+  }
+
+  .lw-back-tree {
+    position: absolute;
+    right: 85px;
+    bottom: 30px;
+    z-index: 1;
+  }
+
+  .lw-tree {
+    position: absolute;
+    left: 40px;
+    bottom: -5px;
+    z-index: 2;
+  }
+
+  .lw-front-tree {
+    position: absolute;
+    right: -40px;
+    bottom: -40px;
+    z-index: 2;
+  }
+
+  .lw-fence {
+    position: absolute;
+    right: 120px;
+    bottom: -40px;
+    z-index: 2;
+  }
+}
