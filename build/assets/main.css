@@ -594,7 +594,6 @@ a {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  outline: 1px solid orange;
   margin-bottom: 50px;
 }
 @media (max-width: 768px) {
@@ -719,6 +718,11 @@ a {
 }
 .lw-feature__list li:nth-child(3), .lw-feature__list li:nth-child(7) {
   margin-top: 60px;
+}
+@media (max-width: 767px) {
+  .lw-feature__list li:nth-child(3), .lw-feature__list li:nth-child(7) {
+    margin: 0;
+  }
 }
 .lw-feature__list-item--animated {
   -ms-grid-column: 1;

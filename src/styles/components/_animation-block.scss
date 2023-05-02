@@ -6,7 +6,6 @@
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  outline: 1px solid orange;
   margin-bottom: 50px;
 
   @media(max-width: 768px) {
@@ -15,13 +14,11 @@
 
   .lw-house {
     padding-top: 75px;
-    //outline: 1px solid black;
     overflow: hidden;
     z-index: 2;
 
     svg {
       display: block;
-      //outline: 1px solid red;
       overflow: visible;
 
       rect {
