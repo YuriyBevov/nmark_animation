@@ -33,7 +33,7 @@
       &:nth-child(7) {
         margin-top: 60px;
 
-        @include m-b-tablet-down {
+        @media(max-width: 768px) {
           margin: 0;
         }
       }
